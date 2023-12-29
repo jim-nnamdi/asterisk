@@ -20,8 +20,8 @@ _start:
     mov r2, r3
     svc 0
 
-  mov r7, #1      // sys exit
-  mov r0, #0      // no error 
+  mov r7, #1
+  mov r0, #0      
   svc 0
 
 .data 

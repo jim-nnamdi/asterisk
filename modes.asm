@@ -5,6 +5,6 @@ _start:
   ldr r2, [r0, #4] // add 4 to the index of r0
 
 
-.data // data section to hold variables
+.data 
 list:
-  .word 4,5,-9,-1,2,0,3 // initialize a list of 32 bits data
+  .word 4,5,-9,-1,2,0,3 

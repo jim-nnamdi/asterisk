@@ -8,7 +8,6 @@
   add r1, #1
   b 1b
 2:
-  @find length
   sub r3, r1, r0
   mov r7, #4
   mov r0, #1
